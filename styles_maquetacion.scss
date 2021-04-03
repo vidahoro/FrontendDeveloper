@@ -1,0 +1,68 @@
+$blanquito: white ;
+
+
+.categories__title{
+    color: $blanquito;
+    font-size: 20px;
+    padding-left: 20px;
+    width: 100%;
+    position: absolute;
+        
+
+}
+.font_family{
+    font-family: 'Mulish', sans-serif;
+    text-decoration: none;
+
+
+}
+
+.Tendances__title{
+
+    color: $blanquito;
+    font-size: 20px;
+    padding-left: 20px;
+    width: 100%;
+    position: absolute;
+        
+}
+.footer{
+    background-image: linear-gradient( 89.8deg,  rgb(222, 74, 74,1) 4.7%, rgba(30,29,29,1) 120.3% );
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    @extend.font_family;
+    // font-family: 'Mulish', sans-serif;
+    // text-decoration: none;
+}
+.footer a{ 
+    color:$blanquito;
+    cursor: pointer;
+    font-size: 14px;
+    @extend.font_family;
+    // font-family: 'Mulish', sans-serif;
+    // text-decoration: none;
+    padding-left: 30px;  
+}
+.footer a:hover{ 
+    
+    text-decoration: underline;
+}
+@media only screen and (max-width:600px){
+    .login__container{
+        background-color: transparent;
+        border: none;
+        padding: 0px;
+        width: 100%;
+
+
+    }
+    .footer{
+        align-items: flex-start;
+        flex-direction: column;
+
+    }
+
+
+}

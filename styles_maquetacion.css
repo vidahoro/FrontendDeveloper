@@ -1,0 +1,54 @@
+.categories__title {
+  color: white;
+  font-size: 20px;
+  padding-left: 20px;
+  width: 100%;
+  position: absolute;
+}
+
+.Tendances__title {
+  color: white;
+  font-size: 20px;
+  padding-left: 20px;
+  width: 100%;
+  position: absolute;
+}
+
+.footer {
+  background-image: linear-gradient(89.8deg, #de4a4a 4.7%, #1e1d1d 120.3%);
+  display: flex;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  font-family: "Mulish", sans-serif;
+  text-decoration: none;
+}
+
+.footer a {
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: "Mulish", sans-serif;
+  text-decoration: none;
+  padding-left: 30px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+  .login__container {
+    background-color: transparent;
+    border: none;
+    padding: 0px;
+    width: 100%;
+  }
+
+  .footer {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=styles_maquetacion.css.map */
